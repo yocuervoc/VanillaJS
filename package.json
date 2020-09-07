@@ -1,0 +1,30 @@
+{
+  "name": "spavanilla",
+  "version": "1.0.0",
+  "description": "Spa with vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yocuervoc/VanillaJS.git"
+  },
+  "author": "Yonatan Cuervo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yocuervoc/VanillaJS/issues"
+  },
+  "homepage": "https://github.com/yocuervoc/VanillaJS#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
